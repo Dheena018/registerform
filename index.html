@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="card">
+        <form class="form" id="form">
+            <h1 class="form-title">Register Form</h1>
+            <hr class="underline">
+            <div class="form-control">
+                <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" class="input" placeholder="Enter username">
+                
+                <small class="error-message"> Username is wrong</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email:</label>
+                    <input type="email" name="email" id="email-element" class="input" placeholder="@example.com">
+                
+                <small class="error-message">Email is wrong</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" class="input" placeholder="Enter password">
+                
+                <small class="error-message">password is wrong</small>
+            </div>
+            <div class="form-control"> 
+                <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" name="password" id="confirm-password" class="input" placeholder="Enter confirm password">
+               
+                <small class="error-message">Confirm Password is wrong</small>
+            </div>
+            <div class="form-control">
+            <button type="submit" id="btn-submit">Submit</button>
+        </div>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
